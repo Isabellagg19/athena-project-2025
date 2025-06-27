@@ -11,3 +11,8 @@ padding: 40px;
 width: 200px;
 height: 200px;
 }
+.flexy{
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+}
