@@ -16,21 +16,13 @@ body{
 }
 
 div {
-    background-image: url(https://previews.123rf.com/images/praewpailin/praewpailin1901/praewpailin190100302/115583478-vector-grid-pattern-and-texture-background-graph-paper-sheet-for-background.jpg);
+    background-image: url("images/background.jpg");
     background-size: cover; /*makes image cover the whole screen*/
     background-position: center; /*Centers the image*/
     background-repeat: no-repeat; /*prevents tiling*/
-margin: 60px;
-padding: 30px;
 }
 
-
-.image {
-width: 200px;
-height: 200px;
-}
-.flexy{
-        display: flex;
-        flex-direction: row;
-        gap: 80px;
+.container {
+    padding: 89px;
+  border-radius: 30px;
 }
