@@ -32,3 +32,12 @@ div {
     padding: 89px;
   border-radius: 30px;
 }
+
+.picture{
+  width: 700px;
+  height: auto;
+  margin: 130px auto;
+  margin-bottom: 0%;
+  display: block;
+  max-width: 100%
+}
