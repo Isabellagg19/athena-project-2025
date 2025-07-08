@@ -12,8 +12,9 @@ line-height: 40px;
 }
 
 .names{
-  font-size: 30px;
+  font-size: 35px;
   font-family:Libertinus,Math;
+  font-weight: bold;
 }
 
 body{
