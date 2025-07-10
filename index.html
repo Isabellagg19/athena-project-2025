@@ -61,5 +61,28 @@
     <p class="subtitle"> (She didn’t fly there, btw. She came by zero-emissions sailboat, because yes, she’s that committed)</p>
     <p class="subtitle"> Since that moment until now she has continued doing amazing stuff, like dragging presidents with actual facts and Skipping Davos to protest with other teens.</p>
     <p class="important"> Greta is the perfect example of a Generation Z leader, and with each of her actions she demonstrates exactly how to transform the world.</p>
+
+    <div class="fun-fact">
+   <p> ✨NOW SOME FUN FACTS✨</p>
+    <p id="fun-fact-text">Malala started writing the blog about life under the Taliban at just 11 years old, under the fake name “Gul Makai”  </p>
+       <button onclick="showNewFact()">Tell me another! 🎲</button>
+</div>
+</div>
+ 
+  <script>
+  const facts = [
+    "Marie Curie's notebooks are still radioactive today and are stored in lead-lined boxes!",
+    "Malala graduated from Oxford University in 2020 with a degree in Philosophy, Politics, and Economics, total academic queen",
+    "Greta has Asperger’s syndrome, and she calls it her “superpower” because it helps her focus and see things clearly",
+    "Marie Curie never patented her discoveries because she wanted science to be free and available to all",
+    "Greta was named TIME Magazine’s Person of the Year in 2019 — and she was only 16 years old "
+  ];
+
+  function showNewFact() {
+    const factElement = document.getElementById("fun-fact-text");
+    const randomIndex = Math.floor(Math.random() * facts.length);
+    factElement.textContent = facts[randomIndex];
+  }
+</script>
 </body>
     
