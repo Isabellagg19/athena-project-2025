@@ -114,7 +114,6 @@ div {
     transform: translateY(0);
   }
 }
-
 .fun-fact {
   background: linear-gradient(135deg, #fff0f5, #ffc0cb);
   border: 2px dashed #ff69b4;
@@ -125,6 +124,7 @@ div {
   margin: 30px auto;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .fun-fact-box button {
   background-color: #ff69b4;
   color: rgb(204, 111, 168);
